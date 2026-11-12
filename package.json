@@ -1,0 +1,40 @@
+{
+  "name": "dsh-turn-notify",
+  "version": "0.1.0",
+  "description": "Turn-completion notifications for DeepSeek Harness on macOS, with a real UNUserNotificationCenter helper app",
+  "type": "module",
+  "main": "plugin/turn-notify.js",
+  "exports": {
+    ".": "./plugin/turn-notify.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "plugin",
+    "helper",
+    "cordis.patch.yml",
+    "install.sh",
+    "uninstall.sh",
+    "README.md"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "notifications",
+    "macos",
+    "cordis"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node test/smoke.mjs",
+    "build:helper": "bash helper/build.sh"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

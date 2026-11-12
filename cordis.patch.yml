@@ -1,0 +1,10 @@
+- insert:
+    - id: turn-notify
+      name: dsh-turn-notify
+      config:
+        notify: true
+        activate: false
+        sound: Glass
+        minDurationMs: 3000
+        onlyMainAgent: true
+        seedRunningTurns: true
