@@ -26,7 +26,7 @@ listens to `agent/status` and calls the helper.
 ## Install
 
 ```sh
-git clone https://github.com/<your-username>/dsh-turn-notify.git
+git clone https://github.com/senigius/dsh-turn-notify.git
 cd dsh-turn-notify
 ./install.sh
 ```

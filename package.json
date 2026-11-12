@@ -25,6 +25,14 @@
     "cordis"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senigius/dsh-turn-notify.git"
+  },
+  "homepage": "https://github.com/senigius/dsh-turn-notify#readme",
+  "bugs": {
+    "url": "https://github.com/senigius/dsh-turn-notify/issues"
+  },
   "engines": {
     "node": ">=20"
   },
